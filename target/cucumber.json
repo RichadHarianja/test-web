@@ -1,0 +1,256 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3934824500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.before()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "User want to edit Profile in QASIR web application",
+        "description": "",
+        "id": "login-feature;user-want-to-edit-profile-in-qasir-web-application;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 184379791,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3444840792,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user open google web",
+            "match": {
+              "location": "OpenWebStep.userOpenGoogleWeb()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 270504667,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user want to check the web",
+            "match": {
+              "location": "OpenWebStep.userCheckLogo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 780981125,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click email title",
+            "match": {
+              "location": "LoginStep.userClickMenuEmail()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 196140250,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click email field",
+            "match": {
+              "location": "LoginStep.userClickEmailField()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 131909209,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user input \"harianjarichad99@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "harianjarichad99@gmail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginStep.userInputEmail(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153107875,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click field pin",
+            "match": {
+              "location": "LoginStep.userClickPinField()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 75918625,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user input the \"121296\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "121296",
+                  "offset": 16
+                }
+              ],
+              "location": "LoginStep.userInputPin(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18231187292,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user login to dashboard QASIR",
+            "match": {
+              "location": "LoginStep.assertDashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6148995209,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user have to choose menu outlet",
+            "match": {
+              "location": "EditProfileStep.userClickIconOutlet()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5750483792,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user click edit button",
+            "match": {
+              "location": "EditProfileStep.userClickEmailField()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 111494250,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user input field \"nama test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "nama test",
+                  "offset": 18
+                }
+              ],
+              "location": "EditProfileStep.userInputName(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 81240875,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user also input field \"alamat test\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "alamat test",
+                  "offset": 23
+                }
+              ],
+              "location": "EditProfileStep.userInputAlamat(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16748014250,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click button SIMPAN",
+            "match": {
+              "location": "EditProfileStep.userClickSimpan()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@success"
+          },
+          {
+            "line": 1,
+            "name": "@Edit"
+          },
+          {
+            "line": 4,
+            "name": "@edit"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "features/EditProfile.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Edit"
+      }
+    ]
+  }
+]
